@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="David Kh Chan - Senior AI & Blockchain Architect | Technology Executive"/>
+  <title>David Kh Chan | Senior AI & Blockchain Architect</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --text: #1f2937;
+      --text-light: #6b7280;
+      --bg: #ffffff;
+      --bg-alt: #f9fafb;
+      --border: #e5e7eb;
+      --success: #059669;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    
+    /* Header */
+    header {
+      border-bottom: 3px solid var(--primary);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+    .title {
+      font-size: 1.25rem;
+      color: var(--primary-dark);
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.95rem;
+      color: var(--text-light);
+    }
+    .contact span { display: flex; align-items: center; gap: 0.3rem; }
+    
+    /* Sections */
+    section { margin-bottom: 2rem; }
+    h2 {
+      font-size: 1.4rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin: 1rem 0 0.3rem;
+      color: var(--text);
+    }
+    .role {
+      font-weight: 600;
+      color: var(--text);
+    }
+    .company { color: var(--primary-dark); font-weight: 500; }
+    .date-location {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-bottom: 0.5rem;
+    }
+    ul { margin-left: 1.5rem; margin-bottom: 0.5rem; }
+    li { margin-bottom: 0.3rem; }
+    
+    /* Summary boxes */
+    .summary-box {
+      background: var(--bg-alt);
+      border-left: 4px solid var(--primary);
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 0 4px 4px 0;
+    }
+    
+    /* Skills grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .skill-category {
+      background: var(--bg-alt);
+      padding: 0.8rem;
+      border-radius: 6px;
+    }
+    .skill-category h4 {
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary-dark);
+    }
+    .skill-category ul {
+      margin-left: 0;
+      list-style: none;
+      font-size: 0.9rem;
+    }
+    .skill-category li { margin-bottom: 0.2rem; }
+    
+    /* Projects */
+    .project {
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid var(--success);
+    }
+    .project h4 { margin-bottom: 0.3rem; }
+    .project .metric {
+      color: var(--success);
+      font-weight: 600;
+    }
+    
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: 500;
+      margin: 0.5rem 0.5rem 0.5rem 0;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: var(--primary-dark);
+      text-decoration: none;
+    }
+    .btn-outline {
+      background: transparent;
+      border: 2px solid var(--primary);
+      color: var(--primary);
+    }
+    .btn-outline:hover {
+      background: var(--primary);
+      color: white;
+    }
+    
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--text-light);
+      text-align: center;
+    }
+    
+    /* Print styles */
+    @media print {
+      body { padding: 0; max-width: none; }
+      .btn, .no-print { display: none !important; }
+      a { text-decoration: none; color: var(--text); }
+    }
+    
+    /* Mobile */
+    @media (max-width: 600px) {
+      .contact { flex-direction: column; gap: 0.5rem; }
+      .skills-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DAVID KH CHAN</h1>
+    <div class="title">Senior AI & Blockchain Architect | Technology Executive</div>
+    <div class="contact">
+      <span>📍 Kuala Lumpur, Malaysia</span>
+      <span>📱 <a href="tel:+60123912910">+60 123 912 910</a></span>
+      <span>📧 <a href="mailto:davidchan@evolphtech.com">davidchan@evolphtech.com</a></span>
+      <span>📧 <a href="mailto:david.kh.chan@gmail.com">david.kh.chan@gmail.com</a> (backup)</span>
+      <span>🌐 <a href="https://linkedin.com/in/davidkhchan" target="_blank">linkedin.com/in/davidkhchan</a></span>
+      <span>🔗 <a href="https://github.com/deyvitt" target="_blank">github.com/deyvitt</a></span>
+    </div>
+    <div style="margin-top: 1rem;" class="no-print">
+      <a href="David_Chan_Resume.pdf" class="btn" download>📄 Download PDF Resume</a>
+      <a href="https://github.com/deyvitt" class="btn btn-outline" target="_blank">View GitHub Projects</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p><strong>Senior Technology Executive</strong> with <strong>20+ years of total professional experience</strong>, including <strong>10+ years leading deep-tech initiatives</strong> in AI, Blockchain, and Enterprise Architecture. Successfully transitioned from industrial commercial leadership to software architecture in 2015, leveraging a formal <strong>Computer Science degree</strong> to deliver enterprise-grade solutions.</p>
+    
+    <div class="summary-box">
+      <strong>Unique Value:</strong> Bridge engineering teams and C-suite stakeholders by combining technical depth with proven P&L accountability. Currently pioneering efficient neural network architectures while scaling Web3 platforms processing <strong>$50M+ in assets</strong>.
+    </div>
+  </section>
+
+  <section>
+    <h2>Core Competencies</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h4>🤖 AI & Machine Learning</h4>
+        <ul>
+          <li>PyTorch, TensorFlow</li>
+          <li>Transformers, LLM Fine-tuning</li>
+          <li>Neural Architecture Search</li>
+          <li>RAG Pipelines, Custom Models</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h4>⛓️ Blockchain & Web3</h4>
+        <ul>
+          <li>Solidity, Smart Contracts</li>
+          <li>DeFi, Asset Tokenization</li>
+          <li>Ethereum, Polygon, BSC</li>
+          <li>Web3.js, Ethers.js</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h4>🏗️ Enterprise Architecture</h4>
+        <ul>
+          <li>Microservices, DDD</li>
+          <li>Cloud-Native (AWS)</li>
+          <li>Event-Driven Design</li>
+          <li>Domain-Driven Design</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h4>💼 Business Leadership</h4>
+        <ul>
+          <li>P&L Management</li>
+          <li>Strategic Planning</li>
+          <li>Stakeholder Management</li>
+          <li>Digital Transformation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Experience</h2>
+    
+    <div>
+      <h3><span class="role">Founder & Senior Technology Consultant</span> | <span class="company">EvolphTech Solutions Sdn Bhd</span></h3>
+      <div class="date-location">Remote | Dec 2019 – Present</div>
+      <ul>
+        <li><strong>AI R&D:</strong> Leading independent research on lightweight neural architectures; prototyped custom transformer variants achieving <span class="metric">30% latency reduction</span> vs. standard baselines.</li>
+        <li><strong>Enterprise Consulting:</strong> Designed cloud-native apps serving <span class="metric">100K+ users</span> with 99.9% uptime for Fortune 500 clients.</li>
+        <li><strong>Strategic Advisory:</strong> Provided CTO-level guidance to 8+ startups; 4 secured <span class="metric">Series A funding</span> through robust technical roadmaps.</li>
+        <li><strong>Revenue Impact:</strong> Generated <span class="metric">$2M+ in client value</span> through innovative technology implementations.</li>
+      </ul>
+      <div style="font-size: 0.9rem; color: var(--text-light);"><em>Stack: Python, PyTorch, AWS, Docker, React, Node.js, Solidity</em></div>
+    </div>
+
+    <div style="margin-top: 1.5rem;">
+      <h3><span class="role">Head of Blockchain Technology</span> | <span class="company">EBRIC PTE LTD</span></h3>
+      <div class="date-location">Petaling Jaya, Malaysia | May 2022 – Dec 2023</div>
+      <ul>
+        <li><strong>Platform Scaling:</strong> Built Web3 asset tokenization platform processing <span class="metric">$50M+ in digitized assets</span>, serving 1,000+ enterprise clients.</li>
+        <li><strong>Technical Leadership:</strong> Led team of 12 engineers through complete product lifecycle from MVP to Series A.</li>
+        <li><strong>Infrastructure:</strong> Architected blockchain infrastructure supporting <span class="metric">10,000+ concurrent transactions</span> with sub-2s latency.</li>
+        <li><strong>Security:</strong> Deployed 20+ production smart contracts on Ethereum/Polygon with <span class="metric">zero security incidents</span>.</li>
+      </ul>
+      <div style="font-size: 0.9rem; color: var(--text-light);"><em>Stack: Solidity, Web3.js, React, Node.js, PostgreSQL, AWS</em></div>
+    </div>
+
+    <div style="margin-top: 1.5rem;">
+      <h3><span class="role">Blockchain Architect</span> | <span class="company">XOX Malaysia</span> (Contract)</h3>
+      <div class="date-location">Selangor, Malaysia | Mar 2021 – May 2022</div>
+      <ul>
+        <li><strong>Supply Chain Innovation:</strong> Designed blockchain traceability solutions reducing counterfeit incidents by <span class="metric">90%</span>.</li>
+        <li><strong>Delivery Optimization:</strong> Implemented processes improving delivery speed by <span class="metric">40%</span>.</li>
+        <li><strong>Team Leadership:</strong> Led 8 engineers to deliver 3 production-ready blockchain applications ahead of schedule.</li>
+        <li><strong>Client Impact:</strong> Solutions served 500+ partners with visibility across <span class="metric">$100M+ in tracked inventory</span>.</li>
+      </ul>
+      <div style="font-size: 0.9rem; color: var(--text-light);"><em>Stack: Ethereum, Hyperledger, Node.js, React, MongoDB, AWS</em></div>
+    </div>
+
+    <div style="margin-top: 1.5rem;">
+      <h3><span class="role">Independent Consultant & Technical Transition</span> | <span class="company">Self-Directed</span></h3>
+      <div class="date-location">Malaysia | Jul 2017 – Feb 2021</div>
+      <ul>
+        <li><strong>Career Pivot:</strong> Successfully transitioned from industrial commercial leadership to software architecture, leveraging formal Computer Science background.</li>
+        <li><strong>Upskilling:</strong> Completed advanced self-study in modern software architecture, blockchain protocols, and AI frameworks.</li>
+        <li><strong>Freelance Delivery:</strong> Delivered custom software solutions for SME clients while building technical proficiency.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Commercial Leadership Foundation</h2>
+    <p style="margin-bottom: 1rem;"><em>Prior to 2017, established strong foundation in enterprise business operations, P&L management, and digital transformation within the industrial gas sector.</em></p>
+    
+    <div>
+      <h3>National Sales Manager | <span class="company">Lincoln Electric</span></h3>
+      <div class="date-location">KL & Singapore | Dec 2016 – Jun 2017</div>
+      <ul>
+        <li>Pioneered e-commerce strategy for industrial welding products in Southeast Asia.</li>
+      </ul>
+    </div>
+    <div style="margin-top: 0.8rem;">
+      <h3>Strategic Account Sales Manager | <span class="company">Air Liquide</span></h3>
+      <div class="date-location">KL & Singapore | Jun 2016 – Nov 2016</div>
+      <ul>
+        <li>Led CRM integration projects improving customer relationship management efficiency.</li>
+      </ul>
+    </div>
+    <div style="margin-top: 0.8rem;">
+      <h3>Tonnage Account Manager | <span class="company">Linde Malaysia Sdn Bhd</span></h3>
+      <div class="date-location">Petaling Jaya | Oct 2012 – Apr 2015</div>
+      <ul>
+        <li>Managed contract negotiations for multi-million dollar industrial gas contracts.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div>
+      <h3>Bachelor of Business (Marketing & Computing)</h3>
+      <div class="date-location">University of Southern Queensland, Australia | 2001</div>
+      <ul>
+        <li><strong>Double Major:</strong> Strategic Marketing & <strong>Computer Science</strong></li>
+        <li><strong>Technical Foundation:</strong> Formal training in software engineering fundamentals, algorithms, data structures, and systems design.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Signature Projects</h2>
+    
+    <div class="project">
+      <h4>🚀 AI Language Model Optimization (2023-Present)</h4>
+      <p>Self-funded research developing efficient neural architectures with verified <span class="metric">30% improved inference speed</span> over baseline models; documented via GitHub repositories.</p>
+    </div>
+    
+    <div class="project">
+      <h4>🏆 Enterprise Asset Tokenization Platform (EBRIC)</h4>
+      <p>Led <span class="metric">$50M+ digital asset platform</span> serving 1,000+ clients with zero security breaches and 99.9% uptime.</p>
+    </div>
+    
+    <div class="project">
+      <h4>🏆 Supply Chain Transparency Solution (XOX Malaysia)</h4>
+      <p>Architected blockchain system reducing counterfeit incidents by <span class="metric">90%</span> across 500+ supply chain partners tracking $100M+ in inventory.</p>
+    </div>
+    
+    <div class="project">
+      <h4>🏆 Industrial E-commerce Innovation (Lincoln Electric)</h4>
+      <p>Pioneered digital transformation strategy generating <span class="metric">$5M+ additional revenue</span> in first year.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <ul>
+      <li><strong>English:</strong> Professional Proficiency</li>
+      <li><strong>Mandarin:</strong> Native/Bilingual</li>
+      <li><strong>Bahasa Malaysia:</strong> Professional Proficiency</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 David Kh Chan | Last updated: March 2026</p>
+    <p class="no-print">
+      <a href="https://github.com/deyvitt/resume" target="_blank">View source on GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    // Simple print handler for better PDF export
+    document.querySelector('.btn[download]')?.addEventListener('click', (e) => {
+      // Fallback: if PDF doesn't exist, trigger print
+      e.preventDefault();
+      window.print();
+    });
+  </script>
+
+</body>
+</html>
